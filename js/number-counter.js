@@ -20,13 +20,13 @@ function display(nbr) {
         .css("font-weight", "normal")
         .css("font-style", "normal");
 
-    // if(nbr % 2 == 0) {
-    //     $("label").css("color", "red");
-    // }
-    // if(nbr % 3 == 0) {
-    //     $("label").css("font-weight", "bold");
-    // }
-    // if(nbr % 7 == 0) {
-    //     $("label").css("font-style", "italic");
-    // }
+    if(nbr % 2 == 0) {
+        $("label").css("color", "red");
+    }
+    if(nbr % 3 == 0) {
+        $("label").css("font-weight", "bold");
+    }
+    if(nbr % 7 == 0) {
+        $("label").css("font-style", "italic");
+    }
 }
